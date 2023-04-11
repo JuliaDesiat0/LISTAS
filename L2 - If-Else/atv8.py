@@ -1,10 +1,10 @@
-idade = int(input("Digite sua idade: "))
+I = int(input("Digite sua idade: "))
 
-if idade >= 1 and idade <= 13:
+if I >= 1 and I <= 13:
     print("Você é uma criança.")
-elif idade > 13 and idade <= 20:
+elif I > 13 and I <= 20:
     print("Você é um(a) adolescente.")
-elif idade > 20 and idade <= 50:
+elif I > 20 and I <= 50:
     print("Você é um(a) adulto(a).")
 else:
     print("Você é uma pessoa idosa.")
