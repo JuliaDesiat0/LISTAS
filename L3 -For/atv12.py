@@ -1,6 +1,6 @@
-a = 0
-b = 1
+A = 0
+B = 1
 
-while a <= 500:
+while A <= 500:
     print(a)
-    a, b = b, a + b
+    A, B = B, A + B
