@@ -6,5 +6,5 @@ if salariobruto <= 5000:
 else:
     desconto = salariobruto * 0.1
 
-salario_liquido = salariobruto + proventos - desconto
-print("O salário líquido é R${:.2f}".format(salario_liquido))
+salarioliquido = salariobruto + proventos - desconto
+print("O salário líquido é R${:.2f}".format(salarioliquido))
