@@ -1,7 +1,7 @@
-a = int(input("Digite o valor de A: "))
-b = int(input("Digite o valor de B: "))
+A = int(input("Digite o valor de A: "))
+B = int(input("Digite o valor de B: "))
 
-if a % b == 0:
+if A % B == 0:
     print("A é divisível por B")
 else:
     print("A não é divisível por B")
