@@ -1,9 +1,9 @@
-n = int(input("Digite o número de termos que deseja gerar: "))
+N = int(input("Digite o número de termos que deseja gerar: "))
 fibonacci = [1, 1]
 
-if n == 1:
+if N == 1:
   print(fibonacci[0])
-elif n == 2:
+elif N == 2:
   print(fibonacci)
 else:
   for i in range(2, n):
