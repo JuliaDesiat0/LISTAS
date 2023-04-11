@@ -1,10 +1,10 @@
 identificacao = int(input("Digite o número de identificação do aluno: "))
-nota1 = float(input("Digite a primeira nota do aluno: "))
-nota2 = float(input("Digite a segunda nota do aluno: "))
-nota3 = float(input("Digite a terceira nota do aluno: "))
+N1 = float(input("Digite a primeira nota do aluno: "))
+N2 = float(input("Digite a segunda nota do aluno: "))
+N3 = float(input("Digite a terceira nota do aluno: "))
 me = float(input("Digite a média dos exercícios do aluno: "))
 
-ma = (nota1 + nota2*2 + nota3*3 + me) / 7
+ma = (N1 + N2*2 + N3*3 + me) / 7
 
 if ma >= 9:
     conceito = "A"
