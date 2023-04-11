@@ -1,13 +1,13 @@
 idade = int(input("Insira a idade do nadador: "))
 
 if idade >= 5 and idade <= 7:
-    categoria = "infantil A"
+    categoria = "infantil a"
 elif idade >= 8 and idade <= 10:
-    categoria = "infantil B"
+    categoria = "infantil b"
 elif idade >= 11 and idade <= 13:
-    categoria = "juvenil A"
+    categoria = "juvenil a"
 elif idade >= 14 and idade <= 17:
-    categoria = "juvenil B"
+    categoria = "juvenil b"
 else:
     categoria = "sênior"
 
