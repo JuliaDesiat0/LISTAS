@@ -1,11 +1,11 @@
 #ler o número da conta
-num_conta = int(input("Digite o número da conta corrente (3 dígitos): "))
+numeroconta = int(input("Digite o número da conta corrente (3 dígitos): "))
 
 #inverso do número
-inverso = int(str(num_conta)[::-1])
+inverso = int(str(numeroconta)[::-1])
 
 #somar o número com o inverso
-soma = num_conta + inverso
+soma = numeroconta + inverso
 
 #calcular o dígito verificador
 digito_verificador = str(soma)[::-1][0]
